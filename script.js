@@ -41,8 +41,8 @@ const searchImages = async () => {
 	}
 };
 
-formEl.addEventListener("submit", (e) => {
-	e.preventDefault();
+formEl.addEventListener("submit", (event) => {
+	event.preventDefault();
 	page = 1;
 	searchImages();
 });
